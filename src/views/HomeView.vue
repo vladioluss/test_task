@@ -24,6 +24,8 @@ function getCurrPageCharacter(value: number): void{
 <template>
   <main>
     <div class="wrapper">
+      <h2>Таблица данных</h2>
+
       <PeopleTable
           v-if="!!countCharacters"
           class="grid"
